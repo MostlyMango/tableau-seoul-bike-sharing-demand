@@ -88,7 +88,7 @@ Using the \*\*Seoul Bike Sharing Demand Dataset\*\* from the UCI Machine Learnin
 
 
 
-!\[Demand Overview](images/demand-overview.png)
+!\[Demand Overview](./images/demand-overview.png)
 
 
 
@@ -116,7 +116,7 @@ The Demand Overview dashboard summarizes overall system performance.
 
 
 
-!\[Weather Impact](images/weather-impact.png)
+!\[Weather Impact](./images/weather-impact.png)
 
 
 
@@ -144,7 +144,7 @@ This dashboard explores the relationship between weather variables and hourly bi
 
 
 
-!\[Temporal Demand Patterns](images/temporal-demand-patterns.png)
+!\[Temporal Demand Patterns](./images/temporal-demand-patterns.png)
 
 
 
