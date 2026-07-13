@@ -88,15 +88,17 @@ Using the \*\*Seoul Bike Sharing Demand Dataset\*\* from the UCI Machine Learnin
 
 
 
-!\[Demand Overview](./images/demand-overview.png)
+\*\*View Dashboard (PDF):\*\*  
+
+📄 \[Demand Overview](images/Demand-Overview.pdf)
 
 
 
-The Demand Overview dashboard summarizes overall system performance.
+This dashboard provides a high-level summary of bike-sharing demand throughout the year.
 
 
 
-\### Key Findings
+\*\*Key Findings\*\*
 
 
 
@@ -116,7 +118,9 @@ The Demand Overview dashboard summarizes overall system performance.
 
 
 
-!\[Weather Impact](./images/weather-impact.png)
+\*\*View Dashboard (PDF):\*\*  
+
+📄 \[Weather Impact Analysis](images/Weather-Impact.pdf)
 
 
 
@@ -124,7 +128,7 @@ This dashboard explores the relationship between weather variables and hourly bi
 
 
 
-\### Key Findings
+\*\*Key Findings\*\*
 
 
 
@@ -135,6 +139,36 @@ This dashboard explores the relationship between weather variables and hourly bi
 \- Snowfall produces the greatest decline in bike rentals.
 
 
+
+\---
+
+
+
+\## 🚲 Temporal Demand Patterns
+
+
+
+\*\*View Dashboard (PDF):\*\*  
+
+📄 \[Temporal Demand Patterns](images/Temporal-Demand-Patterns.pdf)
+
+
+
+This dashboard examines recurring demand patterns throughout the day.
+
+
+
+\*\*Key Findings\*\*
+
+
+
+\- Morning demand peaks around \*\*8:00 AM\*\*
+
+\- Evening demand peaks around \*\*6:00 PM\*\*
+
+\- Summer maintains the highest hourly demand.
+
+\- Holiday demand is lower than non-holiday demand.
 
 \---
 
