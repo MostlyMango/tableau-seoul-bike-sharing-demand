@@ -1,12 +1,16 @@
-\# 🚲 Seoul Bike Sharing Demand Analysis
+\# 🚲 Tableau Business Intelligence Case Study: Seoul Bike Sharing Demand
 
 
 
-> \*\*Business Intelligence Case Study | Tableau Desktop | Exploratory Data Analysis\*\*
+> \*\*Tableau Desktop • Business Intelligence • Exploratory Data Analysis • Dashboard Design\*\*
 
 
 
-This project analyzes one year of bike-sharing demand in Seoul, South Korea using Tableau Desktop. The objective was to understand how weather conditions and temporal factors influence bike rental demand and demonstrate how business intelligence tools can support operational decision-making.
+This project demonstrates how Tableau can be used to transform raw transportation data into actionable business insights.
+
+
+
+Using one year of hourly bike-sharing data from Seoul, South Korea, I developed interactive dashboards to analyze weather impacts, temporal demand patterns, and operational trends that support data-driven decision-making.
 
 
 
@@ -18,11 +22,15 @@ This project analyzes one year of bike-sharing demand in Seoul, South Korea usin
 
 
 
-Bike-sharing systems face a constant balancing act. Operators need enough bicycles available to meet demand without leaving excess inventory sitting unused. Weather conditions, commuting patterns, seasonal changes, and holidays all contribute to fluctuations in demand.
+Bike-sharing systems face a constant operational challenge: having enough bicycles available to meet customer demand without leaving excess inventory unused.
 
 
 
-Using the \*\*Seoul Bike Sharing Demand Dataset\*\* from the UCI Machine Learning Repository, I analyzed \*\*8,760 hourly observations\*\* and built three Tableau dashboards to identify demand drivers and develop operational recommendations.
+Demand changes throughout the day because of weather conditions, commuting patterns, seasonal changes, and holidays. Understanding these patterns allows operators to improve fleet allocation, reduce shortages, and operate more efficiently.
+
+
+
+For this project, I analyzed the \*\*Seoul Bike Sharing Demand Dataset\*\* from the UCI Machine Learning Repository and used Tableau to identify the primary factors influencing bike rental demand.
 
 
 
@@ -34,23 +42,69 @@ Using the \*\*Seoul Bike Sharing Demand Dataset\*\* from the UCI Machine Learnin
 
 
 
-\### Weather Impact
+\### 🌦 Weather Impact
 
 
 
-\- Which weather variables have the strongest relationship with bike rental demand?
+\- Which weather variables have the strongest relationship with hourly bike rental demand?
 
 
 
-\### Temporal Patterns
+\### 🚲 Temporal Demand
 
 
 
-\- How does demand vary throughout the day?
+\- How does bike demand change throughout the day?
 
 \- How do seasons influence ridership?
 
 \- Do holidays affect bike usage?
+
+
+
+\---
+
+
+
+\# Project Results
+
+
+
+\- ✅ Built \*\*3 interactive Tableau dashboards\*\*
+
+\- ✅ Analyzed \*\*8,760 hourly observations\*\*
+
+\- ✅ Identified major weather and temporal demand drivers
+
+\- ✅ Developed operational recommendations based on the analysis
+
+\- ✅ Produced a complete Business Intelligence report and presentation
+
+
+
+\---
+
+
+
+\# Skills Demonstrated
+
+
+
+\- Tableau Desktop
+
+\- Tableau Prep
+
+\- Business Intelligence
+
+\- Dashboard Design
+
+\- Exploratory Data Analysis (EDA)
+
+\- Data Visualization
+
+\- Data Storytelling
+
+\- Business Analytics
 
 
 
@@ -68,7 +122,7 @@ Using the \*\*Seoul Bike Sharing Demand Dataset\*\* from the UCI Machine Learnin
 
 | Tableau Desktop | Dashboard Development |
 
-| Tableau Prep | Data Validation \& Preparation |
+| Tableau Prep | Data Preparation \& Validation |
 
 | Microsoft Word | Technical Report |
 
@@ -80,11 +134,33 @@ Using the \*\*Seoul Bike Sharing Demand Dataset\*\* from the UCI Machine Learnin
 
 
 
+\# Dashboards
+
+
+
 \## 📊 Demand Overview
 
 
 
-\[📄 Open Demand Overview PDF](https://github.com/MostlyMango/tableau-seoul-bike-sharing-demand/blob/main/images/Demand-Overview.pdf)
+📄 \*\*View Dashboard:\*\*  
+
+\[Demand Overview (PDF)](./images/Demand-Overview.pdf)
+
+
+
+This dashboard provides a high-level summary of bike-sharing demand across the study period.
+
+
+
+\### Key Findings
+
+
+
+\- Summer recorded the highest average ridership.
+
+\- Winter experienced the lowest demand.
+
+\- Overall demand remained relatively stable throughout the year.
 
 
 
@@ -96,33 +172,13 @@ Using the \*\*Seoul Bike Sharing Demand Dataset\*\* from the UCI Machine Learnin
 
 
 
-\[📄 Open Weather Impact PDF](https://github.com/MostlyMango/tableau-seoul-bike-sharing-demand/blob/main/images/Weather-Impact.pdf)
+📄 \*\*View Dashboard:\*\*  
+
+\[Weather Impact Analysis (PDF)](./images/Weather-Impact.pdf)
 
 
 
-\---
-
-
-
-\## 🚲 Temporal Demand Patterns
-
-
-
-\[📄 Open Temporal Demand Patterns PDF](https://github.com/MostlyMango/tableau-seoul-bike-sharing-demand/blob/main/images/Temporal-Demand-Patterns.pdf)
-
-\---
-
-
-
-\## 🚲 Temporal Demand Patterns
-
-
-
-!\[Temporal Demand Patterns](./images/temporal-demand-patterns.png)
-
-
-
-The Temporal Demand dashboard examines demand across time.
+This dashboard explores how environmental conditions influence hourly bike rentals.
 
 
 
@@ -130,13 +186,43 @@ The Temporal Demand dashboard examines demand across time.
 
 
 
-\- Morning demand peaks around \*\*8:00 AM\*\*.
+\- Temperature has the strongest positive relationship with bike demand.
 
-\- Evening demand peaks around \*\*6:00 PM\*\*.
+\- Rainfall consistently reduces ridership.
 
-\- Summer maintains the highest hourly demand.
+\- Snowfall produces the largest decline in bicycle usage.
 
-\- Holiday demand is lower than non-holiday demand.
+
+
+\---
+
+
+
+\## 🚲 Temporal Demand Patterns
+
+
+
+📄 \*\*View Dashboard:\*\*  
+
+\[Temporal Demand Patterns (PDF)](./images/Temporal-Demand-Patterns.pdf)
+
+
+
+This dashboard examines recurring demand behavior throughout the day.
+
+
+
+\### Key Findings
+
+
+
+\- Morning demand peaks around \*\*8:00 AM\*\*
+
+\- Evening demand peaks around \*\*6:00 PM\*\*
+
+\- Summer maintains the highest hourly demand
+
+\- Holiday demand is lower than non-holiday demand
 
 
 
@@ -152,13 +238,13 @@ Based on the analysis, several operational improvements were identified.
 
 
 
-\- \*\*Fleet Redistribution\*\* – Position bicycles before morning and evening commuting peaks.
+\- 🚲 \*\*Fleet Redistribution\*\* – Position bicycles before morning and evening commuting peaks.
 
-\- \*\*Weather Forecast Integration\*\* – Incorporate forecast data into daily operational planning.
+\- 🌦️ \*\*Weather Forecast Integration\*\* – Incorporate weather forecasts into operational planning.
 
-\- \*\*Seasonal Resource Allocation\*\* – Adjust staffing and maintenance schedules according to seasonal demand.
+\- 📅 \*\*Seasonal Resource Allocation\*\* – Adjust staffing and maintenance schedules based on seasonal demand.
 
-\- \*\*Infrastructure Planning\*\* – Expand stations and bicycle availability in consistently high-demand locations.
+\- 🏗️ \*\*Infrastructure Planning\*\* – Expand bicycle availability and station capacity in consistently high-demand locations.
 
 
 
@@ -166,41 +252,17 @@ Based on the analysis, several operational improvements were identified.
 
 
 
-\# Repository Structure
+\# Repository Contents
 
 
 
-```text
+\- 📄 Business Intelligence Report
 
-.
+\- 📊 Tableau Workbook (.twbx)
 
-├── data/
+\- 🎥 Final Presentation (PDF + Recorded Presentation)
 
-│   └── README.md
-
-├── images/
-
-│   ├── demand-overview.png
-
-│   ├── weather-impact.png
-
-│   └── temporal-demand-patterns.png
-
-├── presentation/
-
-│   ├── Presentation.pdf
-
-│   └── Presentation.mp4
-
-├── report/
-
-│   └── Business\_Intelligence\_Report.docx
-
-└── tableau/
-
-&#x20;   └── Seoul\_Bike\_Sharing\_Analysis.twbx
-
-```
+\- 📁 Dashboard Exports
 
 
 
@@ -216,11 +278,11 @@ Based on the analysis, several operational improvements were identified.
 
 
 
-\- Source: UCI Machine Learning Repository
+\- \*\*Source:\*\* UCI Machine Learning Repository
 
-\- Time Period: December 2017 – November 2018
+\- \*\*Time Period:\*\* December 2017 – November 2018
 
-\- Observations: 8,760 hourly records
+\- \*\*Observations:\*\* 8,760 hourly records
 
 
 
@@ -236,7 +298,7 @@ https://archive.ics.uci.edu/dataset/560/seoul+bike+sharing+demand
 
 
 
-This project was completed as part of a Business Intelligence course with the goal of applying Tableau to a real-world dataset. The focus was on translating historical transportation data into actionable business insights through visualization, exploratory analysis, and dashboard design.
+This project demonstrates how business intelligence tools can be applied to a real-world transportation problem. By combining exploratory data analysis, interactive dashboards, and data storytelling, the project translates raw operational data into practical business recommendations that support better decision-making.
 
 
 
@@ -244,9 +306,9 @@ This project was completed as part of a Business Intelligence course with the go
 
 
 
-\*\*Skills Demonstrated\*\*
+\## Connect With Me
 
 
 
-`Tableau` • `Business Intelligence` • `Data Visualization` • `Exploratory Data Analysis` • `Dashboard Design` • `Business Analytics`
+If you're interested in business intelligence, Tableau, data analytics, or dashboard development, feel free to connect with me on LinkedIn or explore my other analytics projects as I continue building my portfolio.
 
